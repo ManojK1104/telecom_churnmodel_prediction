@@ -9,7 +9,7 @@ def main():
     X_train,X_test,y_train,y_test=preprocessing(df)
     print(X_train.shape,X_test.shape,y_train.shape,y_test.shape)
 
-    model,accuracy=model_build(X_train,X_test,y_train,y_test)
+    model,accuracy=model_build(df)
     return model,accuracy
 
 
