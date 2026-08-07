@@ -8,3 +8,4 @@ imblearn
 chandan-aiops
 flaml
 flaml[automl]
+gradio
